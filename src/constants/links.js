@@ -15,12 +15,4 @@ export default [
     path: "/blog",
     text: "blog",
   },
-  {
-    path: "/error",
-    text: "error",
-  },
-  {
-    path: "/rooms",
-    text: "rooms",
-  }
 ]

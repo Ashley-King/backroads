@@ -2,16 +2,16 @@ import React from "react"
 import Layout from "../components/Layout"
 import styles from "../css/error.module.css"
 import Banner from "../components/Banner"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const error = () => {
   return (
     <Layout>
       <header className={styles.error}>
         <Banner title="deadend dude. let's head back.">
-          <Link to="/" className="btn-white">
+          <AniLink fade to="/" className="btn-white">
             Back Home
-          </Link>
+          </AniLink>
         </Banner>
       </header>
     </Layout>

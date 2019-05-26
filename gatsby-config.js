@@ -6,6 +6,12 @@
 const path = require(`path`)
 
 module.exports = {
+  siteMetadata: {
+    title: "Backroads Luxury Tour Company",
+    description:
+      "Explore the world awesomely. Forget your daily routine. Say YES to adventure.",
+    author: "Ashley King",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

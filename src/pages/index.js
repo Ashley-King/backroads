@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
-import StyledHero from "../components/StyledHero"
+
 import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import { graphql } from "gatsby"
+import StyledHero from "../components/StyledHero"
 
 export default ({ data }) => (
   <Layout>

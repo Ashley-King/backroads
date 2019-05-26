@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
+    "contentful": "^7.6.0",
     "gatsby": "^2.7.1",
     "gatsby-background-image": "^0.6.2",
     "gatsby-image": "^2.1.1",

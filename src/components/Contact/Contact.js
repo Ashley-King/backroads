@@ -8,7 +8,7 @@ const Contact = () => {
       <Title title="contact" subtitle="us" />
       <div className={styles.center}>
         <form
-          action="https://formspree.io/email@domain.tld"
+          action="https://formspree.io/ashleyot@gmail.com"
           method="POST"
           className={styles.form}
         >

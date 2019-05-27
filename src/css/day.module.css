@@ -12,6 +12,7 @@
   cursor: pointer;
   outline: none;
 }
+
 .btn svg {
   font-size: 1.5rem;
   color: var(--primaryColor);
@@ -20,6 +21,7 @@
   line-height: 2;
   transition: var(--mainTransition);
 }
+
 @media screen and (min-width: 992px) {
   .day h4 {
     width: 400px;

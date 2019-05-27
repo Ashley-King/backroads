@@ -26,6 +26,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-playground`,
     `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-source-contentful`,
